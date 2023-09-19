@@ -1,9 +1,15 @@
 
-div {
-    height: 10em;
-    width: 10em;
+#grid {
+    display: flex;
+    height: 40em;
+    width: 40em;
+    background-color: dodgerblue;
 }
 
-#container div {
-    background-color: dodgerblue;
+.row{
+    display: flex;
+    height: 10em;
+    width: 10em;
+    border: solid red 1px;
+    background-color: khaki;
 }
