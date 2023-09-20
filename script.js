@@ -14,3 +14,11 @@ function createGrid(){
 }
 
 createGrid();
+
+const gridDivs = document.querySelectorAll('.col');
+
+gridDivs.forEach((div) => {
+    div.addEventListener('mouseover', () => {
+        div.style.backgroundColor = 'black';
+    });
+});

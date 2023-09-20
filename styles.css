@@ -1,22 +1,17 @@
 
 #grid {
-    height: 50em;
-    width: 50em;
-    background-color: dodgerblue;
 }
 
-.row{
+.row {
     display: flex;
-    flex-direction: row;
-    height: 10em;
-    width: 20em;
-    border: solid red 1px;
-    background-color: khaki;
+    height: 10rem;
+    width: 40rem;
+    border: solid black 1px;
 }
 
-.col{
-    height: 10em;
-    width: 20em;
-    border: solid red 1px;
-    background-color: khaki;
+.col {
+    height: 10rem;
+    width: 20rem;
+    border: solid black 1px;
+    background-color: white;
 }
